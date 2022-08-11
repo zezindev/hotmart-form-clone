@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/style.css">
+    <title>HTM FORM</title>
+  </head>
+  <body>
+    <div id="container">
+      <div class="conected">Conecte-se na sua conta</b>
+        <form class="form"> 
+          
+          <p>ZE.JS</p>
+          <input data-teste="username" name="login" placeholder="Digite seu email" required type="email" class="text-input"/>
+          <input type="password" id="password"  placeholder="Digite sua senha" name="password" maxlength="20" required="true" data-teste="passaword"/>
+        
+          <div class="form-group-container">
+            <div class="form-group-flex">
+              <label for="show-password" class="swp">
+                <input type="checkbox" value class="show-password-check" id="show-password" name="show-password"> Exibir senha
+              </label>
+              <a href="#" class="forgot-password" data-teste="forgot-password">Esqueceu sua senha?</a>
+            </div>
+          </div>
+          <button data-teste="submit"><span><b>ENTRAR</b></span></button>  
+        </form>
+
+        <div class="powered">
+          Powered by <b>José Lucas Rodrigues</b>
+        </div>
+      </div>
+    </div>
+
+    <script src="/js/scrip.js"></script>
+  </body>
+</html>
